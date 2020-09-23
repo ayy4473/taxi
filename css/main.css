@@ -1,0 +1,288 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+a {
+    color: red;
+}
+body {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+html {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+footer {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #333333;
+  color: #fff;
+}
+.form-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.form-input__phone {
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem 0 0.5rem 0.3rem;
+}
+
+.form-input__name,
+.form-input__button {
+  padding: 0.5rem 0 0.5rem 0.3rem;
+}
+
+.form-input__button {
+  color: white;
+  background-color: #333;
+  border-color: none !important;
+  border-style: none !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  background: #ffe336;
+  min-height: 100vh;
+}
+.title {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
+  padding: 0 2rem;
+}
+.form {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
+  padding: 0 7rem;
+}
+h1 {
+  padding-bottom: 2rem;
+}
+.issues {
+  background-color: #efefef;
+}
+.issues__sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.issues__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+  margin-bottom: 2rem;
+}
+.issues__item--team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
+}
+.issues__item--image img {
+  width: 100px;
+  height: 81px;
+}
+.issues__item--text {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 30%;
+  flex: 1 0 30%;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #fff;
+  min-height: 100vh;
+}
+.description--text {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
+  padding: 0 2rem;
+}
+.description--text p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+ol li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.description--image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
+  height: 100%;
+}
+.menu__footer {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+.bottom__information {
+  padding: 0 2rem;
+  font-size: 0.7em;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 795px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .form {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+    padding: 0 0.5rem;
+  }
+  .title {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+    padding: 0 0.5rem;
+  }
+  .menu__footer {
+    width: 90%;
+  }
+}
+@media (max-width: 450px) {
+  .issues__item--team {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+  }
+  .issues__item--text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+  }
+  .issues__sections {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
